@@ -13,7 +13,7 @@ public class MyHttpServe {
         Vertx vertx = Vertx.vertx();
 
         HttpServer server = vertx.createHttpServer();
-
+        //事件驱动
         server.requestHandler(request -> {
             request.response().end("Hello world");
         }).listen(8080);
