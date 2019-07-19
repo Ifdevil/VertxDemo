@@ -1,0 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/workspace.xml
+target/
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
